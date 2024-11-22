@@ -1,12 +1,117 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|d:\\projetos\\dotnet\\restwithasp-net5udemy\\01_restwithasp-net5udemy_scafoldviavisual\\restwithasp-net5udemy\\restwithasp-net5udemy\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|solutionrelative:restwithasp-net5udemy\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|d:\\projetos\\dotnet\\restwithasp-net5udemy\\01_restwithasp-net5udemy_scafoldviavisual\\restwithasp-net5udemy\\restwithasp-net5udemy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|solutionrelative:restwithasp-net5udemy\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|d:\\projetos\\dotnet\\restwithasp-net5udemy\\01_restwithasp-net5udemy_scafoldviavisual\\restwithasp-net5udemy\\restwithasp-net5udemy\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|solutionrelative:restwithasp-net5udemy\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|d:\\projetos\\dotnet\\restwithasp-net5udemy\\01_restwithasp-net5udemy_scafoldviavisual\\restwithasp-net5udemy\\restwithasp-net5udemy\\restwithasp-net5udemy.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|solutionrelative:restwithasp-net5udemy\\restwithasp-net5udemy.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|d:\\projetos\\dotnet\\restwithasp-net5udemy\\01_restwithasp-net5udemy_scafoldviavisual\\restwithasp-net5udemy\\restwithasp-net5udemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|solutionrelative:restwithasp-net5udemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|d:\\projetos\\dotnet\\restwithasp-net5udemy\\01_restwithasp-net5udemy_scafoldviavisual\\restwithasp-net5udemy\\restwithasp-net5udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{216E9E24-F891-46D8-8F33-EFCF19BCE4C5}|RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.csproj|solutionrelative:restwithasp-net5udemy\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestWithASP-NET5Udemy.http",
+              "DocumentMoniker": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.http",
+              "RelativeDocumentMoniker": "RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.http",
+              "ToolTip": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.http",
+              "RelativeToolTip": "RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-21T09:57:49.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "RestWithASP-NET5Udemy\\appsettings.Development.json",
+              "ToolTip": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\appsettings.Development.json",
+              "RelativeToolTip": "RestWithASP-NET5Udemy\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T09:57:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\appsettings.json",
+              "RelativeDocumentMoniker": "RestWithASP-NET5Udemy\\appsettings.json",
+              "ToolTip": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\appsettings.json",
+              "RelativeToolTip": "RestWithASP-NET5Udemy\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T09:56:37.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\Program.cs",
+              "RelativeDocumentMoniker": "RestWithASP-NET5Udemy\\Program.cs",
+              "ToolTip": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\Program.cs",
+              "RelativeToolTip": "RestWithASP-NET5Udemy\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:56:25.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorController.cs",
+              "DocumentMoniker": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\Controllers\\CalculatorController.cs",
+              "RelativeDocumentMoniker": "RestWithASP-NET5Udemy\\Controllers\\CalculatorController.cs",
+              "ToolTip": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\Controllers\\CalculatorController.cs",
+              "RelativeToolTip": "RestWithASP-NET5Udemy\\Controllers\\CalculatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T09:53:51.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RestWithASP-NET5Udemy\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projetos\\DotNet\\RestWithASP-NET5Udemy\\01_RestWithASP-NET5Udemy_ScafoldViaVisual\\RestWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RestWithASP-NET5Udemy\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T10:08:47.477Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

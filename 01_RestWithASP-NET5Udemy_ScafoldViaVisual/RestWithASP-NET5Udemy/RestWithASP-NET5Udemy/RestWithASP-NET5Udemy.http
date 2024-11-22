@@ -1,6 +1,6 @@
 @RestWithASP_NET5Udemy_HostAddress = http://localhost:5160
 
-GET {{RestWithASP_NET5Udemy_HostAddress}}/weatherforecast/
+GET {{RestWithASP_NET5Udemy_HostAddress}}/Calculator/sum/5/5
 Accept: application/json
 
 ###
