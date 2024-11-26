@@ -43,3 +43,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/01_RestWithASP-NET5Udemy_ScafoldViaVisual/RestWithASP-NET5Udemy/RestWithASP-NET5Udemy/obj/Release/net8.0
+/01_RestWithASP-NET5Udemy_ScafoldViaVisual/RestWithASP-NET5Udemy/RestWithASP-NET5Udemy/obj/Debug/net8.0/ref/RestWithASP-NET5Udemy.dll
