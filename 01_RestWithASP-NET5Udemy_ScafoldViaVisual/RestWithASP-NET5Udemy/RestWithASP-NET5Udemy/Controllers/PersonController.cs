@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
+using RestWithASP_NET5Udemy.Model;
 using RestWithASP_NET5Udemy.Services;
 
 namespace RestWithASP_NET5Udemy.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PersonController : ControllerBase
     {        
         private readonly ILogger<PersonController> _logger;
@@ -16,79 +17,47 @@ namespace RestWithASP_NET5Udemy.Controllers
             _personService = personService;
         }
 
-        [HttpGet("sum/{firstNumber}/{secondNumber}")]
-        public IActionResult Sum(string? firstNumber = "0", string? secondNumber = "0")
+        [HttpGet]
+        public IActionResult Get()
         {
-            
-
-            return BadRequest("Invalid Input");
+            return Ok(_personService.FindAll());
         }
 
-        //[HttpGet("subtract/{firstNumber}/{secondNumber}")]
-        //public IActionResult Subtract(string? firstNumber = "0", string? secondNumber = "0")
-        //{
-        //    if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-        //    {
-        //        var subtract = ConvertToDesimal(firstNumber) - ConvertToDesimal(secondNumber);
+        [HttpGet("{id}")]
+        public IActionResult Get(long id)
+        {
+            var person = _personService.FindById(id);
 
-        //        return Ok(subtract);
-        //    }
+            if (person == null) 
+                return NotFound();
 
-        //    return BadRequest("Invalid Input");
-        //}
+            return Ok(person);
+        }
 
-        //[HttpGet("multiply/{firstNumber}/{secondNumber}")]
-        //public IActionResult Multiply(string? firstNumber = "0", string? secondNumber = "0")
-        //{
-        //    if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-        //    {
-        //        var multiply = ConvertToDesimal(firstNumber) * ConvertToDesimal(secondNumber);
+        [HttpPost]
+        public IActionResult Post([FromBody] Person person)
+        {            
+            if (person == null)
+                return BadRequest();
 
-        //        return Ok(multiply);
-        //    }
+            return Ok(_personService.Create(person));
+        }
 
-        //    return BadRequest("Invalid Input");
-        //}
+        [HttpPut]
+        public IActionResult Put([FromBody] Person person)
+        {
+            if (person == null)
+                return BadRequest();
 
-        //[HttpGet("split/{firstNumber}/{secondNumber}")]
-        //public IActionResult Split(string? firstNumber = "0", string? secondNumber = "0")
-        //{
-        //    if (IsNumeric(firstNumber) && IsNumeric(secondNumber))
-        //    {
-        //        var split = ConvertToDesimal(firstNumber) / ConvertToDesimal(secondNumber);
+            return Ok(_personService.Update(person));
+        }
 
-        //        return Ok(split);
-        //    }
+        [HttpDelete("{id}")]
+        public IActionResult Delete(long id)
+        {
+            _personService.Delete(id);            
 
-        //    return BadRequest("Invalid Input");
-        //}
-
-        //[HttpGet("square-root/{firstNumber}")]
-        //public IActionResult SquareRoot(string? firstNumber = "0")
-        //{
-        //    if (IsNumeric(firstNumber))
-        //    {
-        //        var squareroot = Math.Sqrt((double)ConvertToDesimal(firstNumber)) ;
-
-        //        return Ok(squareroot);
-        //    }
-
-        //    return BadRequest("Invalid Input");
-        //}
-
-        //private decimal ConvertToDesimal(string? firstNumber = "0")
-        //{
-        //    decimal result = 0;
-        //    decimal.TryParse(firstNumber, out result);
-        //    return result;
-        //}
-
-        //private bool IsNumeric(string? firstNumber = "0")
-        //{
-        //    double number = 0;
-        //    bool isNumber = double.TryParse(firstNumber, out number);
-
-        //    return isNumber;
-        //}
+            return NoContent();
+        }
     }
 }
